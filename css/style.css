@@ -1,0 +1,68 @@
+@font-face {
+	font-family: RalewayRegular;
+	src: url(../fonts/RalewayRegular/RalewayRegular.ttf)
+}
+
+
+html, body {
+	height: 100%;
+}
+
+header {
+	min-height: 700px;
+	height: 100vh;
+}
+
+body {
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+	line-height: 1.75;
+	font-family: RalewayRegular;
+	overflow-x: hidden;
+	opacity: 1;
+	color: #fff;
+  background: linear-gradient(45deg,rgba(0, 0, 0, 0) 48%,rgba(255, 255, 255, 0.1) 50%,rgba(0, 0, 0, 0) 52%),linear-gradient(-45deg,rgba(0, 0, 0, 0) 48%,rgba(255, 255, 255, 0.1) 50%,rgba(0, 0, 0, 0) 52%);
+  background-size: 1em 1em;
+  background-color: #303030;
+}
+
+.entry-form {
+	width: 250px;
+	margin: 0 auto;
+	margin-top: 10%;
+	padding: 35px;
+	background-color: #126872;
+	padding: 25px;
+	border-radius: 5px;}
+	h1 {
+		text-align: center;
+}
+
+.entry-form .button {
+	background-color: #031727;
+	color: #fff;
+	border: none;
+	padding: 15px 35px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 30px;
+	font-size: 16px;
+	-webkit-border-radius: 27px;
+	-moz-border-radius: 27px;
+	-ms-border-radius: 27px;
+	-o-border-radius: 27px;
+	border-radius: 10px;;
+}	
+.entry-form .form-header {
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+}
+
+input#login-field, input#pass-field{
+	width: 100%;
+	border:none;
+	font-size: 15px;
+	margin-top: 8px;
+}
